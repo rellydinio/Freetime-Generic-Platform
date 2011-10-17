@@ -26,13 +26,18 @@
 		<%} %>
 		
 	</div>
-	<div id="language-combo-container">
+<%--	<div id="language-combo-container">
 	  <span id="language-label" class="outer-label">Language</span>
 		<select>
 		  <option>English-United States</option>
 		  <option>English-United Kingdom</option>
 		</select>
-	</div>
+	</div>--%>
+    <div id="language-combo-container">
+        <span id="language-label" class="outer-label">Language</span>
+            <%= Html.DropDownList("Language", new SelectList(Freetime.Base.Component.LanguageManager.Current.Languages, "DisplayName", "LanguageCode")) %>
+
+    </div>
   </div>
   
   <!-- MAIN -->

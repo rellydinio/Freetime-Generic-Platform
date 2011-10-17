@@ -76,9 +76,6 @@
     <Reference Include="Freetime.Web.Context">
       <HintPath>..\bin\Debug\Freetime.Web.Context.dll</HintPath>
     </Reference>
-    <Reference Include="Freetime.Web.Controller">
-      <HintPath>..\bin\Debug\Freetime.Web.Controller.dll</HintPath>
-    </Reference>
     <Reference Include="Freetime.Web.Routing, Version=1.0.1.1, Culture=neutral, PublicKeyToken=b86d1ba90a0e7353, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Debug\Freetime.Web.Routing.dll</HintPath>
@@ -264,6 +261,10 @@
     <ProjectReference Include="..\Freetime.Base.Business\Freetime.Base.Business.csproj">
       <Project>{CF7EC13B-E324-455A-9A91-71CFCBEBD6C1}</Project>
       <Name>Freetime.Base.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Freetime.Web.Controller\Freetime.Web.Controller.csproj">
+      <Project>{B4821622-B647-4997-9EC0-D4E0BC77F5F4}</Project>
+      <Name>Freetime.Web.Controller</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -56,6 +56,12 @@ namespace Freetime.Web
             //Set Controller Factory
             Freetime.Web.Controller.ControllerFactory factory = new Freetime.Web.Controller.ControllerFactory();
             ControllerBuilder.Current.SetControllerFactory(factory);
+            //TestLanguageManager testLanguageManager = new TestLanguageManager();
+            //Freetime.Base.Component.LanguageManager.SetLanguageManager(testLanguageManager);
+
+            //var languages = Freetime.Base.Component.LanguageManager.Current.Languages;
         }
+
+        
     }
 }
