@@ -26,6 +26,8 @@ namespace Freetime.Base.Business
         public virtual bool SignInUser(string loginName,
             string password)
         {
+            if (Equals(loginName, null))
+                throw new ArgumentNullException("loginName");
             FreetimeUser user = null;
             return SignInUser(loginName, password, ref user);
         }
