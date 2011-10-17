@@ -92,6 +92,7 @@
     <Compile Include="AuthenticationSession.cs" />
     <Compile Include="Collection\BusinessLogicList.cs" />
     <Compile Include="Collection\DataSessionServiceList.cs" />
+    <Compile Include="Collection\LanguageList.cs" />
     <Compile Include="Contracts\IAuthenticationSession.cs" />
     <Compile Include="Contracts\ILocalizationSession.cs" />
     <Compile Include="Entities\Common\AuditableEntity.cs" />

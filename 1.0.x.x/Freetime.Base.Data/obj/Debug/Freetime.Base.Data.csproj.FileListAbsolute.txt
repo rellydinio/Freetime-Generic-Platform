@@ -1,0 +1,5 @@
+D:\PRACTICE\TekWorc\Freetime-Generic-Platform\1.0.x.x\bin\Debug\Freetime.Base.Data.dll
+D:\PRACTICE\TekWorc\Freetime-Generic-Platform\1.0.x.x\bin\Debug\Freetime.Base.Data.pdb
+D:\PRACTICE\TekWorc\Freetime-Generic-Platform\1.0.x.x\Freetime.Base.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\PRACTICE\TekWorc\Freetime-Generic-Platform\1.0.x.x\Freetime.Base.Data\obj\Debug\Freetime.Base.Data.dll
+D:\PRACTICE\TekWorc\Freetime-Generic-Platform\1.0.x.x\Freetime.Base.Data\obj\Debug\Freetime.Base.Data.pdb
